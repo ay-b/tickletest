@@ -1,7 +1,7 @@
-# calculator
-calculator with unit test
-function are ::
-->Addition \n
+# Calculator
+Calculator with unit test
+function used are ::
+->Addition
 ->Subtraction
 ->Multiplication
 ->Divide
