@@ -1,11 +1,11 @@
 # calculator
 calculator with unit test
 function are ::
-Addition
-Subtraction
-Multiplication
-Divide
-Fibonacci
-Square
-Square Root
-Cube
+->Addition \n
+->Subtraction
+->Multiplication
+->Divide
+->Fibonacci
+->Square
+->Square Root
+->Cube
