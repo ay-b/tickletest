@@ -1,6 +1,6 @@
 # Calculator
-Calculator with unit test
-function used are ::
+Calculator with unit tests
+function used are :
 ->Addition
 ->Subtraction
 ->Multiplication
