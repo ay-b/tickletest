@@ -13,7 +13,15 @@ function used are :
 
 
 ->Divide
+
+
 ->Fibonacci
+
+
 ->Square
+
+
 ->Square Root
+
+
 ->Cube
