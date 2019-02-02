@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+
+# command to install dependencies
+install:
+  - "pip install math --upgrade-strategy=only-if-needed"
+
+# command to run the dependencies
+script:
+  - "pytest"
