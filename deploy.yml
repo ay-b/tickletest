@@ -1,0 +1,18 @@
+- name: deploying the caculatr locally
+  hosts: 127.0.0.1
+  connection: local
+  tasks:
+  - name: clone repo
+    git: 
+      repo: https://github.com/ay-b/tickletest
+      dest: tickletest
+
+  - name: build a container
+    command: docker build -t test:latest .
+
+  - name: run the container to test it runs ok
+    command: docker run --rm test:latest add 123456789 987654321
+    register: docker_output
+
+  - debug:
+      var: docker_output.stdout_lines
