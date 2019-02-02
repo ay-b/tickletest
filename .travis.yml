@@ -8,5 +8,9 @@ services:
 script:
   - "pytest"
   - docker build -t test:latest .
+  - docker run --rm test:latest add 2 -2
+  - docker run --rm test:latest sub 2 2
+  - docker run --rm test:latest mul 2 0
+  - docker run --rm test:latest div 0 10
 
 
