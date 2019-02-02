@@ -2,9 +2,11 @@ language: python
 python:
   - "3.6"
 
-# command to install dependencies
-install:
+services:
+  - docker
 
-# command to run the dependencies
 script:
   - "pytest"
+  - docker build -t test:latest .
+
+
